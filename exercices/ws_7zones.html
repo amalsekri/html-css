@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zoning découpage en 7 zones</title>
+    <link rel="stylesheet" href="css/ws_7zones.css">
+</head>
+<body>
+    <header>
+        le haut du site
+    </header>
+    <main>
+    <div class="gauche">
+        zone de gauche
+    </div>
+    <!--pour echaper les espaces blanc creer par display on peut utiliser plusieurs solutions(soit echaper ca avec les commentaires ou bien je met toutes les div a coté, cad pas d'espacement entre les div, soit j'ajoute sur la div parente un font-size:0, si on utilise la solution de font-size:0 sur le parent, il faut changer le font-size sur les enfants, parce que par defaut ca sera font-size:0;-->
+    <div class="milieu">
+        <div class="z_milieu"><!--
+        --><div>Zone1</div><!--
+        --><div>Zone 2</div><!--
+        --><div>Zone 3</div><!--
+        --><div>zone 4</div><!--
+        --><div>Zone5</div><!---->
+         </div>
+        <div id="footer">
+            le bas du site
+        </div>
+
+    </div>
+     
+    <div class="droite">
+        la partie de droite
+    </div>
+   
+    </main>
+    
+</body>
+</html>

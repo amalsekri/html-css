@@ -1,0 +1,33 @@
+*{
+    font-family:fantasy;
+}
+body{
+    width:960px;
+    margin:0 auto;/*permet de mettre le contenu de la page au centre*/
+
+}
+table{
+    border:4px solid #483d8b;/*les valeurs sont:epaisseur,le type de bordure, la couleur du bordure*/
+    width:600px;
+    padding:25px;
+    border-collapse: collapse;/*border-collapse permet de fusioner les bordures*/
+   
+}
+th{
+    background-color:#e6e6fa;
+    font-size:30px;
+}
+td{
+    border:1px dotted #6a5acd;/*dotted permet de mettre la bordure pointillé*/
+    font-size:26px;
+    padding:10px;/*creer un espacement a l'interieur de l'element*/
+    text-align: center;
+}
+p{
+    border:5px solid lightseagreen;
+    border-radius: 100px 20px 10px 30px;/*permet de creer des coins arrondis, il recoit 4 valeurs(top,droite,bottom,gauche)*/
+    width:400px;
+    height:200px;
+    text-align: center;
+    padding:25px;
+}

@@ -1,0 +1,48 @@
+body{
+    width:1300px;
+    margin:0 auto;
+    text-align: center;
+    color:white;
+}
+.gauche{
+    background-color: #5585ff;
+    width:300px;
+    height:548px;
+    float:left;
+    line-height: 548px;
+}
+header{
+    background-color: #ff5555;
+    height:100px;
+    line-height: 70px;/*line-height:definit l'hauteur de la ligne*/
+    /* display: none; display:none; permet de cacher un element*/
+    /* visibility: hidden; permet de cacher l'ement tout en gardant la zone */
+}
+
+.milieu{
+    display: inline-block;/*pour changer le type d'affichage de cette balise*/
+    height:500px;
+    
+}
+.droite{
+    float:right;
+    background-color: #5585ff;
+    width:300px;
+    height: 548px;
+    line-height: 548px;
+}
+.z_milieu div{/* ce selecteur pour dire toutes les div qui se trouve a l'interieur d'une balise qui a comme classe z_milieu*/
+
+    width:138px;
+    background-color: limegreen;
+    display: inline-block;
+    height:450px;
+    line-height: 450px;
+    border: 1px solid #000;
+}
+#footer{
+    background-color: yellow;
+    height: 100px;
+    line-height: 100px;
+    
+}

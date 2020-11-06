@@ -1,0 +1,46 @@
+.pink{
+    background-color: pink;
+}
+article{
+    background-color: green;
+}
+footer{
+    background-color: lightseagreen;
+    color:#fff;
+    margin: 10px 50px 2px 40px;/*margin permet de faire des espacements entre les elements, principalement il contient 4 chiffres qui suit le tour de l'horloge(top,right,bottom(bas),left)*/
+    padding-right:250px;
+    width:500px;/* permet de définir la taille/la largeur dun bloc, ca sera en pixel*/
+    height:600px;
+    text-align: center;
+    clear: both;
+
+}
+#article{
+
+    background-color: lawngreen;
+    width:700px;
+    height:300px;
+    float:right;
+    
+}
+.article{
+    background-color:red;
+    width:500px;
+    height:400px;
+    float:left;
+}
+a{
+    font-size:26px;
+    color:lightblue;
+    margin-left:15px;/**/
+    text-decoration:none;/*permet de changer la decoration du texte, on met none pour supprimer la decoration*/
+    font-family:fantasy;
+}
+nav{
+    text-align:right;
+}
+body{
+    width: 1300px;
+    
+    margin:0 auto;/*permet de centrer le contenu de la page et il va creer un margin automatique(gauche et droite) et on haut et en bas le margin sera 0*/
+}

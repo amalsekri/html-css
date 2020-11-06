@@ -1,0 +1,49 @@
+body{
+    width:1250px;
+    margin:0 auto;
+    color:white;
+    text-align: center;
+}
+.couleur_1 .zone   {
+    background-color: peachpuff;
+}
+.couleur_2 .zone{
+    background-color: #7a9eb1;
+}
+
+.couleur_3 .zone{
+    background-color: #415865;
+}
+
+.couleur_4 .zone{
+    background-color: #ffe1b3;
+}
+.zone_A,.zone_B,.zone_C,.zone_D{
+    width:600px;
+    display: inline-block;
+    border:1px solid white;
+}
+
+.zone{
+    width:295px;
+    height: 150px;
+    display: inline-block;
+    border:1px solid #fff;
+    line-height: 70px;
+}
+header{
+    background-color:tan;
+    height:100px;
+}
+footer{
+    background-color:silver;
+    height: 100px;
+}
+nav{
+    background-color:gray;
+    height:30px;
+}
+main{
+   background-color:lightskyblue;
+   padding:15px;
+}

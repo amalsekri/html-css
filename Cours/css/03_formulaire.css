@@ -1,0 +1,19 @@
+label{
+    font-weight:bold;/* pour mettre en gras le texte*/
+    background-color:lightslategray;
+    padding:5px;
+}
+.sauve{
+    background-color:lightseagreen;
+    padding:10px;
+    border:none;/*supprimer le bordure sur le boutton*/
+    color:white;
+
+}
+legend{
+    background-color: lightseagreen;
+    padding:15px;
+}
+fieldset{
+    border:1px double lightseagreen;/* border permet de creer des bordures, 1px pour l'epaisseur du  bordure, solid pour le type de bordure et la couleur du bordure*/
+}

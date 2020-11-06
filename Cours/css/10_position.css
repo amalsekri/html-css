@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    height:1100px;
+}
+
+.item1{  
+    width:250px;
+    height: 100px;
+    background-color: rgba(154, 205, 50,0.4);
+    position:absolute;
+    right:0px;
+    top:150px;
+    /* les proprietes left,right,top et bottom sont relative a la propriete position */
+    /* comme on peut utiliser une seule prepriete, on peut aussi utiliser 3 propriete en meme temps */
+}
+.item2{
+    width:250px;
+    height: 100px;
+    background-color:pink;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+.item3{
+    width:250px;
+    height: 100px;
+    background-color: rebeccapurple;
+    position: relative;
+    top:150px;
+    left:300px;
+    color:white;
+    /*les propietes left,right,top,bottom sont relatives a la position*/
+}
+
+
+.item4{
+    width:250px;
+    height: 100px;
+    background-color:green;
+}
+.bloc_2{
+    border:1px solid gray;
+    position:relative;
+    left:100px;
+    width:400px;
+   top:200px;
+}
+
+header{
+    background-color: firebrick;
+    height: 100px;
+    width:100%;
+   position: fixed;/*la position fixed permet de coller l'element tout en scrollant dans la page*/
+   left:0;
+   top:0;
+   z-index: 1;/*z-index permet de donner un ordre d'affichage pour les elements qui sont superposés*/
+
+color:#fff;
+}

@@ -1,0 +1,23 @@
+p{/*l'appel du selecteur(nom de la balise, le nom d'une classe.... */
+   /* ici je met le code css  */
+   /* la forme d'une propriété*/
+  /* nom_propriete:valeur_proriete;*/
+   /* un exemple */
+   color:yellowgreen;
+   font-family: 'Josefin Sans', sans-serif;/* font-family permet de changer le nom de la police*/
+
+
+}
+h4{
+    color:red;/* propriete color permet de changer la couleur du texte*/
+    background-color:black;/* background-color permet de changer la couleur de l'arrière plan*/
+    text-align:center;/*text-align permet d'aligner le texte*/
+   
+
+}
+/* l'appel du classe se fait on ajoutant un point au debut*/
+.premier_p{
+color:lightcoral;
+font-size: 26px;
+text-align: center;
+}
